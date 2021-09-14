@@ -52,7 +52,7 @@
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-xl-10 d-flex align-items-center">
-          <a href="index.html" class="logo mr-auto"><img src="assets/img/LOGO.png" alt=""><h1 class="logo mr-auto"><a href="index.html"><span>Santhi</span> Speciality Beauty<span>Clinic</span></a></h1></a>
+          <a href="index.html" class="logo mr-auto"><img src="assets/img/LOGO.png" alt=""><h1 class="logo mr-auto"><a href="index.html"><span>Santhi</span> Speciality Beauty<span>Clinic</span> & MAKE<span>.</span>OVER<span>.</span>STUDIO</a></h1></a>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt=""></a>-->
 &nbsp&nbsp&nbsp
@@ -207,13 +207,13 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Shanthi Beauty<span>Clinic</span></h3>
+            <h3><span>Santhi</span> Speciality Beauty<span>Clinic</span> MAKE<span>.</span>OVER<span>.</span>STUDIO</h3>
             <p>
               Santhi Speciality Beauty Clinic <br>
               plamoottukada,Neyyattinkara<br>
               Trivandrum,kerala <br><br>
               <strong>Phone:</strong> 9567408969<br>
-              <strong>Email:</strong> shanthibeautyclinic@gmail.com<br>
+              <strong>Email:</strong> santhispecialitybeautyclinic@gmail.com<br>
             </p>
           </div>
 
@@ -302,11 +302,11 @@
     $("#submit-form").submit((e)=>{
         e.preventDefault()
         $.ajax({
-            url:"https://script.google.com/macros/s/AKfycbywXMy1vMpK2B491Z68IFzYrs_0fTYiu_omTX_zQ9mge_zDf0phtS_tv9BmDXPoT94L7Q/exec",
+            url:"https://script.google.com/macros/s/AKfycbwQXCkNASXI5ERCPIGxm68WOW_1FA7B3oCCD3cyff5XKq1MmTfl12uyf1Eqk1_pYp0/exec",
             data:$("#submit-form").serialize(),
             method:"post",
             success:function (response){
-              swal("Submitted Successfully!", "You clicked the button!", "success");
+                alert("Form submitted successfully")
                 window.location.reload()
                 //window.location.href="https://google.com"
             },

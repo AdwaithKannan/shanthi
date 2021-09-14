@@ -80,11 +80,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
-  font-size: 32px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 600;
+  font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
 
@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo a span {
   color: #e03a3c;
 }
+
 
 #header .logo img {
   max-height: 40px;
